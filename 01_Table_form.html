@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <div>
+                <h1>Check Request Form Template</h1>
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="dept">Department</label>
+                            <select id="dept" name="Department">
+                                <option selected>select</option>
+                                <option>CSE</option>
+                                <option>ECE</option>
+                                <option>MECH</option>
+                                <OPTION>CIVIL</OPTION>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Date</label></td>
+                        <td><input type="date" id="date" name="dob"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td><label for="firstname">Name*</label></td>
+                        <td><input type="text" id="firstname" name="firstname" required></td>
+                        <td><label for="l_name"></label></td>
+                        <td><input type="text" id="l_name" name="lastname" requried></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="phone">phone</label></td>
+                        <td><input type="tel" id="phone" name="phone"></td>>
+                    </tr>
+                    <tr>
+                        <td> <label for="adres">Address*</label></td>
+                        <td> <textarea name="Address" id="adres" cols="5" rows="5" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <th><label for="m">Gender:</label></th>
+                        <td><input type="radio" id="gender" name="gender" value="male" />Male
+                            <input type="radio" id="gender" name="gender" value="Female" />Female
+                            <input type="radio" id="gender" name="gender" value="others" />Others
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="file" multiple>Employee signature</label></td>
+                        <td><input type="file" id="file" name="file"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit"></td>
+                    </tr>
+
+
+
+
+
+
+
+
+
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
